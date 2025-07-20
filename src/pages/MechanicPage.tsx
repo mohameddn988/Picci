@@ -16,6 +16,7 @@ const MechanicPage: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
   const [videoLoaded, setVideoLoaded] = useState(false);
   const [videoError, setVideoError] = useState(false);
+  const [showVideo, setShowVideo] = useState(false);
 
   // Préchargement des images avec gestion d'erreurs
   useEffect(() => {
@@ -45,6 +46,28 @@ const MechanicPage: React.FC = () => {
     }, 300);
     
     return () => clearTimeout(timer);
+  }, []);
+
+  // Optimized video loading with intersection observer
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setShowVideo(true);
+            observer.disconnect();
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    const heroSection = document.querySelector('.hero-section');
+    if (heroSection) {
+      observer.observe(heroSection);
+    }
+
+    return () => observer.disconnect();
   }, []);
 
   useEffect(() => {
@@ -107,40 +130,42 @@ const MechanicPage: React.FC = () => {
 
         {/* HERO SECTION */}
         <section 
-          className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-b from-black via-gray-900 to-black"
+          className="hero-section min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-b from-black via-gray-900 to-black"
           style={{ transform: `translateY(${-scrollY}px)` }}
         >
-          {/* Background video */}
+          {/* Background video with optimization */}
           <div className="absolute inset-0 z-0">
-            <video 
-              autoPlay 
-              muted 
-              loop 
-              playsInline
-              className="w-full h-full object-cover opacity-40"
-              onError={(e) => {
-                console.log('❌ Video failed to load, using fallback background');
-                setVideoError(true);
-                // Hide video and show fallback
-                e.currentTarget.style.display = 'none';
-                const fallback = document.getElementById('video-fallback');
-                if (fallback) fallback.style.display = 'block';
-              }}
-              onLoadStart={() => {
-                console.log('🎬 Video loading started');
-              }}
-              onCanPlay={() => {
-                console.log('✅ Video can play');
-                setVideoLoaded(true);
-              }}
-              onLoadedData={() => {
-                console.log('📹 Video data loaded');
-                setVideoLoaded(true);
-              }}
-            >
-              <source src="/mecanicbg.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            {/* Optimized video */}
+            {showVideo && !videoError && (
+              <video 
+                autoPlay 
+                muted 
+                loop 
+                playsInline
+                preload="auto"
+                className="w-full h-full object-cover opacity-40"
+                onError={(e) => {
+                  console.log('❌ Video failed to load, using gradient background only');
+                  setVideoError(true);
+                  e.currentTarget.style.display = 'none';
+                }}
+                onLoadStart={() => {
+                  console.log('🎬 Video loading started');
+                }}
+                onCanPlay={() => {
+                  console.log('✅ Video can play');
+                  setVideoLoaded(true);
+                }}
+                onLoadedData={() => {
+                  console.log('📹 Video data loaded');
+                  setVideoLoaded(true);
+                }}
+              >
+                <source src="/mecanicbg.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            )}
+            
             <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-black/70 z-10"></div>
           </div>
 
