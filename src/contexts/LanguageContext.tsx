@@ -106,7 +106,7 @@ const translations: Translations = {
   // HomePage sections
   'home.hero.title.line1': { fr: 'Fier de vous servir', en: 'Proud to serve you' },
   'home.hero.title.line2': { fr: 'depuis 1986', en: 'since 1986' },
-  'home.hero.description': { fr: 'Un centre complèt qui répond à tous vos besoins automobiles : lavage, mécanique, barbier et vente de véhicules', en: 'A complete station that meets all your automotive needs: car wash, mechanics, barber and vehicle sales' },
+  'home.hero.description': { fr: 'Un centre complet qui répond à tous vos besoins automobiles : lavage, mécanique, barbier et vente de véhicules', en: 'A complete station that meets all your automotive needs: car wash, mechanics, barber and vehicle sales' },
   'home.hero.cta': { fr: 'Découvrir Nos Services', en: 'Discover Our Services' },
   
   // Catalog section
@@ -114,7 +114,7 @@ const translations: Translations = {
   'home.catalog.cta': { fr: 'Voir tous les services', en: 'View all services' },
   
   // About section
-  'home.about.title': { fr: 'Un centre complèt à votre service', en: 'A complete station at your service' },
+  'home.about.title': { fr: 'Un centre complet à votre service', en: 'A complete station at your service' },
   'home.about.description1': { fr: 'Notre station multi-services a été conçue pour répondre à tous vos besoins automobiles en un seul endroit. Que vous souhaitiez entretenir votre véhicule, lui redonner son éclat d\'origine, changer de look, ou même acquérir une nouvelle voiture, notre équipe de professionnels est là pour vous.', en: 'Our multi-service station was designed to meet all your automotive needs in one place. Whether you want to maintain your vehicle, restore its original shine, change your look, or even acquire a new car, our team of professionals is here for you.' },
   'home.about.description2': { fr: 'Avec plus de 10 ans d\'expertise dans le secteur automobile, nous mettons notre savoir-faire à votre service pour vous offrir une expérience complète et personnalisée.', en: 'With over 10 years of expertise in the automotive sector, we put our know-how at your service to offer you a complete and personalized experience.' },
   'home.about.motto': { fr: 'Qualité. Expertise. Satisfaction.', en: 'Quality. Expertise. Satisfaction.' },
@@ -297,7 +297,7 @@ const translations: Translations = {
 
   // Services section - Home
   'home.services.title': { fr: 'Nos Services', en: 'Our Services' },
-  'home.services.subtitle': { fr: 'Un centre  multi-services complète pour répondre à tous vos besoins automobiles', en: 'A complete multi-service station to meet all your automotive needs' },
+  'home.services.subtitle': { fr: 'Un centre multi-service complet pour répondre à tous vos besoins automobiles', en: 'A complete multi-service station to meet all your automotive needs' },
   'home.services.learnMore': { fr: 'En savoir plus', en: 'Learn more' },
 
   // Service Cards
@@ -473,8 +473,8 @@ const translations: Translations = {
 
   // === FINANCING PAGE ===
   'financing.hero.title.1': { fr: 'Garantie', en: 'Financing' },
-  'financing.hero.title.2': { fr: 'aux financement', en: 'guarantee' },
-  'financing.hero.title.3': { fr: 'pour prteger votre achat', en: 'available to protect your purchase' },
+  'financing.hero.title.2': { fr: 'aux financements', en: 'guarantee' },
+  'financing.hero.title.3': { fr: 'pour protéger votre achat', en: 'available to protect your purchase' },
   'financing.hero.subtitle': { fr: 'Des options de financement flexibles et adaptées à votre budget', en: 'Flexible financing options tailored to your budget' },
   'financing.cta.discuss': { fr: 'Discuter de mon financement', en: 'Discuss my financing' },
   'financing.options.title': { fr: 'Nos Options de Financement', en: 'Our Financing Options' },
