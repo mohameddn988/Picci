@@ -14,6 +14,8 @@ const MechanicPage: React.FC = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeCategory, setActiveCategory] = useState('all');
   const [scrollY, setScrollY] = useState(0);
+  const [videoLoaded, setVideoLoaded] = useState(false);
+  const [videoError, setVideoError] = useState(false);
 
   // Préchargement des images avec gestion d'erreurs
   useEffect(() => {
@@ -116,6 +118,25 @@ const MechanicPage: React.FC = () => {
               loop 
               playsInline
               className="w-full h-full object-cover opacity-40"
+              onError={(e) => {
+                console.log('❌ Video failed to load, using fallback background');
+                setVideoError(true);
+                // Hide video and show fallback
+                e.currentTarget.style.display = 'none';
+                const fallback = document.getElementById('video-fallback');
+                if (fallback) fallback.style.display = 'block';
+              }}
+              onLoadStart={() => {
+                console.log('🎬 Video loading started');
+              }}
+              onCanPlay={() => {
+                console.log('✅ Video can play');
+                setVideoLoaded(true);
+              }}
+              onLoadedData={() => {
+                console.log('📹 Video data loaded');
+                setVideoLoaded(true);
+              }}
             >
               <source src="/mecanicbg.mp4" type="video/mp4" />
               Your browser does not support the video tag.
