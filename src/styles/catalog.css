@@ -1,0 +1,29 @@
+/* Styles pour les catalogues */
+
+/* Titres des sections - Butler */
+.catalog-section-title {
+  font-family: 'Butler', serif;
+}
+
+/* Contenu du catalogue - Roboto */
+.catalog-item-name {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.catalog-item-price {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.catalog-item-description {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* Styles pour les colonnes */
+.catalog-column-title {
+  font-family: 'Butler', serif;
+}
+
+/* Style pour le texte des boutons dans le catalogue */
+.catalog-button {
+  font-family: 'Roboto', sans-serif !important;
+} 

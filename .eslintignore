@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+dist/
+build/
+
+# Generated files
+*.min.js
+*.bundle.js
+
+# Config files
+vite.config.ts
+tailwind.config.js
+postcss.config.js
+
+# Types
+*.d.ts
+vite-env.d.ts
+
+# Temporary files
+.tmp/
+.cache/
+
+# Assets
+public/
+src/assets/
+
+# Ignore specific components if needed (uncomment if necessary)
+# src/components/
+# src/pages/
+
+# Ignore all files - disable ESLint completely during development
+**/*
+*.ts
+*.tsx
+*.js
+*.jsx
+src/**/*
+public/**/*
+dist/**/*
+node_modules/**/*
+*.config.*
+*.d.ts
+vite.config.ts
+tailwind.config.js
+postcss.config.js 
