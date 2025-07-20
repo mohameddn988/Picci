@@ -182,7 +182,7 @@ const TctPage: React.FC = () => {
                         onPause={() => setIsVideoPlaying(false)}
                         onClick={handleVideoClick}
                       >
-                        <source src="/TCT.mp4" type="video/mp4" />
+                        <source src="https://storage.googleapis.com/works23/picci/public/TCT.mp4" type="video/mp4" />
                         Votre navigateur ne supporte pas la lecture de vidéos.
                       </video>
 

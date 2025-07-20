@@ -161,7 +161,7 @@ const MechanicPage: React.FC = () => {
                   setVideoLoaded(true);
                 }}
               >
-                <source src="/mecanicbg.mp4" type="video/mp4" />
+                <source src="https://storage.googleapis.com/works23/picci/public/mecanicbg.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             )}

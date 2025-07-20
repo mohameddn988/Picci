@@ -105,7 +105,7 @@ const HomePage: React.FC = () => {
           <div className="absolute inset-0 z-0">
             <div className="relative h-full w-full">
               <img 
-                src="/Picci_14.jpg"
+                src="https://storage.googleapis.com/works23/picci/public/Picci_14.jpg"
                 alt="Station Multi-Services - Vue principale"
                 className="w-full h-full object-cover opacity-40"
               />
