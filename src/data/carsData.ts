@@ -8,6 +8,7 @@ export const carsData = [
     mileage: '42 000 km',
     fuel: 'gasoline',
     brand: 'Chrysler',
+    sold: true,
     images: {
       main: '/CARS/chrysler/A1.JPG',
       gallery: [
@@ -30,6 +31,7 @@ export const carsData = [
     mileage: '28 000 km',
     fuel: 'gasoline',
     brand: 'Ford',
+    sold: true,
     images: {
       main: '/CARS/ford/B1.JPG',
       gallery: [
@@ -49,6 +51,7 @@ export const carsData = [
     mileage: '15 000 km',
     fuel: 'electric',
     brand: 'Hummer',
+    sold: true,
     images: {
       main: '/CARS/hammer/C1.JPG',
       gallery: [
@@ -68,6 +71,7 @@ export const carsData = [
     mileage: '18 000 km',
     fuel: 'gasoline',
     brand: 'Nissan',
+    sold: true,
     images: {
       main: '/CARS/nissan/D1.JPG',
       gallery: [
@@ -89,6 +93,7 @@ export const carsData = [
     mileage: '22 000 km',
     fuel: 'gasoline',
     brand: 'Hyundai',
+    sold: true,
     images: {
       main: '/CARS/huyndai/E1.jpg',
       gallery: [

@@ -38,6 +38,11 @@ const CarCard: React.FC<CarCardProps> = ({ car, delay, isVisible, onViewDetails 
         <div className="absolute top-0 right-0 bg-red-500 text-white px-3 py-1 text-sm font-bold">
           {car.year}
         </div>
+        {car.sold && (
+          <div className="absolute top-0 left-0 bg-green-600 text-white px-3 py-1 text-sm font-bold">
+            VENDU
+          </div>
+        )}
       </div>
       
       {/* Car Info */}
