@@ -362,7 +362,7 @@ const CarsPage: React.FC = () => {
             name: t('cars.names.' + selectedCar.id, selectedCar.name),
             brand: t('cars.brands.' + selectedCar.brand.toLowerCase(), selectedCar.brand),
             description: t('cars.descriptions.' + selectedCar.brand.toLowerCase(), selectedCar.description),
-            fuel: t('cars.fuel.' + selectedCar.fuel.toLowerCase(), selectedCar.fuel),
+            fuel: selectedCar.fuel,
           }}
           images={selectedCar.images}
           contactButtonLabel={t('cars.modal.contact')}

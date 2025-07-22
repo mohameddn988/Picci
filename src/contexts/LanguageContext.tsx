@@ -17,7 +17,7 @@ const translations: Translations = {
   'nav.language': { fr: 'EN', en: 'FR' },
   'nav.barbershop': { fr: 'Barbershop', en: 'Barbershop' },
   'nav.carwash': { fr: 'Lave-Auto', en: 'Carwash' },
-  'nav.cars': { fr: "Vente D'Auto", en: 'Car Sales' },
+  'nav.cars': { fr: 'Vente d\'autos', en: 'Car Sales' },
   'nav.mechanic': { fr: 'Mécanique', en: 'Mechanic' },
   'nav.financing': { fr: 'Financement', en: 'Financing' },
   'nav.tct': { fr: 'TCT', en: 'TCT' },
@@ -201,7 +201,7 @@ const translations: Translations = {
   'footer.carwash': { fr: 'Lave-Auto', en: 'Car Wash' },
   'footer.barbershop': { fr: 'Barbershop', en: 'Barbershop' },
   'footer.mechanic': { fr: 'Mécanique', en: 'Mechanic' },
-  'footer.carSales': { fr: 'Vente Auto', en: 'Car Sales' },
+  'footer.carSales': { fr: 'Vente d\'autos', en: 'Car Sales' },
   'footer.financing': { fr: 'Financement', en: 'Financing' },
   'footer.tct': { fr: 'TCT', en: 'TCT' },
   'footer.openingHours': { fr: 'Heures d\'ouverture', en: 'Opening Hours' },
@@ -307,7 +307,7 @@ const translations: Translations = {
   'home.services.carwash.title': { fr: 'Carwash', en: 'Carwash' },
   'home.services.carwash.description': { fr: 'Nos services de lavage premium redonnent à votre véhicule son éclat d\'origine avec des équipements de dernière génération.', en: 'Our premium washing services restore your vehicle\'s original shine with state-of-the-art equipment.' },
 
-  'home.services.cars.title': { fr: 'Vente Auto', en: 'Car Sales' },
+  'home.services.cars.title': { fr: 'Vente d\'autos', en: 'Car Sales' },
   'home.services.cars.description': { fr: 'Découvrez notre sélection de véhicules d\'occasion soigneusement inspectés et garantis pour répondre à tous vos besoins.', en: 'Discover our selection of carefully inspected and guaranteed used vehicles to meet all your needs.' },
 
   'home.services.mechanic.title': { fr: 'Mécanique Auto', en: 'Auto Mechanic' },
@@ -764,7 +764,7 @@ const translations: Translations = {
   // === CARS NAMES & FUELS ===
   'cars.names.A': { fr: 'Chrysler 300', en: 'Chrysler 300' },
   'cars.names.B': { fr: 'Ford Fusion', en: 'Ford Fusion' },
-  'cars.names.C': { fr: 'Hummer H2', en: 'Hummer H2' },
+  'cars.names.C': { fr: 'HUMMER H3', en: 'HUMMER H3' },
   'cars.names.D': { fr: 'Nissan Versa', en: 'Nissan Versa' },
   'cars.names.E': { fr: 'Hyundai Elantra', en: 'Hyundai Elantra' },
   'cars.fuel.gasoline': { fr: 'Essence', en: 'Gasoline' },
