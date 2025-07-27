@@ -6,8 +6,9 @@ interface Translations {
   [key: string]: { fr: string; en: string };
 }
 
-// Traductions temporaires - à compléter avec le contenu barbershop
 const translations: Translations = {
+// Traductions temporaires - à compléter avec le contenu barbershop
+  'cars.modal.gallery.alt': { fr: 'Photo de la voiture', en: 'Car photo' },
   // Navigation
   'nav.home': { fr: 'Accueil', en: 'Home' },
   'nav.catalog': { fr: 'Services', en: 'Services' },
