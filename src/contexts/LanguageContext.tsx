@@ -772,7 +772,8 @@ const translations: Translations = {
   'cars.names.G': { fr: 'Infiniti QX50 3.7L', en: 'Infiniti QX50 3.7L' },
   'cars.names.H': { fr: 'Volkswagen Golf', en: 'Volkswagen Golf' },
   'cars.names.I': { fr: 'Volvo XC90 AWD', en: 'Volvo XC90 AWD' },
-  'cars.names.J': { fr: 'Honda Civic', en: 'Honda Civic' },
+  'cars.names.J': { fr: 'Honda Civic Noire', en: 'Honda Civic Black' },
+  'cars.names.K': { fr: 'Honda Civic Rouge', en: 'Honda Civic Red' },
   'cars.fuel.gasoline': { fr: 'Essence', en: 'Gasoline' },
   'cars.fuel.electric': { fr: 'Électrique', en: 'Electric' },
   'cars.brands.chrysler': { fr: 'Chrysler', en: 'Chrysler' },
@@ -795,6 +796,7 @@ const translations: Translations = {
   'cars.descriptions.audi': { fr: 'Berline sportive de luxe, édition exclusive avec pack carbone et performances exceptionnelles.', en: 'Luxury sports sedan, exclusive edition with carbon package and outstanding performance.' },
   'cars.descriptions.infiniti': { fr: 'VUS de luxe spacieux, moteur V6 3.7L puissant, confort et fiabilité.', en: 'Spacious luxury SUV, powerful 3.7L V6 engine, comfort and reliability.' },
   'cars.descriptions.honda': { fr: 'Compacte fiable et économique, idéale pour la ville et les longs trajets.', en: 'Reliable and economical compact car, ideal for city and long trips.' },
+  'cars.descriptions.hondaRed': { fr: 'Compacte sportive avec une finition rouge élégante.', en: 'Sporty compact with a sleek red finish.' },
   'cars.modal.contact': { fr: 'Nous contacter', en: 'Contact' },
 };
 
