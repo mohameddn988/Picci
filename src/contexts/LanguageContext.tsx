@@ -772,6 +772,7 @@ const translations: Translations = {
   'cars.names.G': { fr: 'Infiniti QX50 3.7L', en: 'Infiniti QX50 3.7L' },
   'cars.names.H': { fr: 'Volkswagen Golf', en: 'Volkswagen Golf' },
   'cars.names.I': { fr: 'Volvo XC90 AWD', en: 'Volvo XC90 AWD' },
+  'cars.names.J': { fr: 'Honda Civic', en: 'Honda Civic' },
   'cars.fuel.gasoline': { fr: 'Essence', en: 'Gasoline' },
   'cars.fuel.electric': { fr: 'Électrique', en: 'Electric' },
   'cars.brands.chrysler': { fr: 'Chrysler', en: 'Chrysler' },
@@ -783,6 +784,7 @@ const translations: Translations = {
   'cars.brands.hyundai': { fr: 'Hyundai', en: 'Hyundai' },
   'cars.brands.audi': { fr: 'Audi', en: 'Audi' },
   'cars.brands.infiniti': { fr: 'Infiniti', en: 'Infiniti' },
+  'cars.brands.honda': { fr: 'Honda', en: 'Honda' },
   'cars.descriptions.chrysler': { fr: 'Berline élégante et puissante, idéale pour la route et la ville.', en: 'Elegant and powerful sedan, ideal for road and city.' },
   'cars.descriptions.ford': { fr: 'Berline confortable, économique et fiable, parfaite pour la famille.', en: 'Comfortable, economical and reliable sedan, perfect for families.' },
   'cars.descriptions.hummer': { fr: 'SUV électrique robuste, design unique et performances tout-terrain.', en: 'Robust electric SUV, unique design and off-road performance.' },
@@ -792,6 +794,7 @@ const translations: Translations = {
   'cars.descriptions.hyundai': { fr: 'Berline moderne, faible consommation et conduite agréable.', en: 'Modern sedan, low consumption and pleasant driving.' },
   'cars.descriptions.audi': { fr: 'Berline sportive de luxe, édition exclusive avec pack carbone et performances exceptionnelles.', en: 'Luxury sports sedan, exclusive edition with carbon package and outstanding performance.' },
   'cars.descriptions.infiniti': { fr: 'VUS de luxe spacieux, moteur V6 3.7L puissant, confort et fiabilité.', en: 'Spacious luxury SUV, powerful 3.7L V6 engine, comfort and reliability.' },
+  'cars.descriptions.honda': { fr: 'Compacte fiable et économique, idéale pour la ville et les longs trajets.', en: 'Reliable and economical compact car, ideal for city and long trips.' },
   'cars.modal.contact': { fr: 'Nous contacter', en: 'Contact' },
 };
 
