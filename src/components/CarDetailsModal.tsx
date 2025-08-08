@@ -167,30 +167,6 @@ const CarDetailsModal: React.FC<CarDetailsModalProps> = ({ isOpen, onClose, car,
             >
               {contactButtonLabel || t('contactForm.form.submit')}
             </button>
-
-            {/* Carfax Link */}
-            <div className="mt-6 text-center">
-              {(() => {
-                let carfaxUrl = '';
-                if (car.id === 'C') {
-                  carfaxUrl = 'https://vhr.carfax.ca/?id=%2FbKin%20dnOPJU7PBQovOLg2e8XiTcc%20Y%2F';
-                } else if (car.id === 'A') {
-                  carfaxUrl = 'https://vhr.carfax.ca/?id=%2FYx3EKAxXFLqDentlV8jRD5hGV6lw2Cj';
-                } else {
-                  carfaxUrl = 'https://vhr.carfax.ca/?id=%2FbKin%20dnOPJU7PBQovOLg2e8XiTcc%20Y%2F';
-                }
-                return (
-                  <a
-                    href={carfaxUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-2 text-blue-400 hover:text-blue-600 underline text-lg font-semibold transition-colors duration-200"
-                  >
-                    Voir le rapport Carfax
-                  </a>
-                );
-              })()}
-            </div>
           </div>
         </div>
       </div>

@@ -766,13 +766,17 @@ const translations: Translations = {
   'cars.names.A': { fr: 'Chrysler 300', en: 'Chrysler 300' },
   'cars.names.B': { fr: 'Ford Fusion', en: 'Ford Fusion' },
   'cars.names.C': { fr: 'HUMMER H3', en: 'HUMMER H3' },
-  'cars.names.D': { fr: 'Nissan Versa', en: 'Nissan Versa' },
+  'cars.names.D': { fr: 'Nissan Sentra 2009', en: 'Nissan Sentra 2009' },
   'cars.names.E': { fr: 'Hyundai Elantra', en: 'Hyundai Elantra' },
   'cars.names.F': { fr: 'Audi RS7 Carbon Optic Audi Exclusive', en: 'Audi RS7 Carbon Optic Audi Exclusive' },
   'cars.names.G': { fr: 'Infiniti QX50 3.7L', en: 'Infiniti QX50 3.7L' },
+  'cars.names.H': { fr: 'Volkswagen Golf', en: 'Volkswagen Golf' },
+  'cars.names.I': { fr: 'Volvo XC90 AWD', en: 'Volvo XC90 AWD' },
   'cars.fuel.gasoline': { fr: 'Essence', en: 'Gasoline' },
   'cars.fuel.electric': { fr: 'Électrique', en: 'Electric' },
   'cars.brands.chrysler': { fr: 'Chrysler', en: 'Chrysler' },
+  'cars.brands.volkswagen': { fr: 'Volkswagen', en: 'Volkswagen' },
+  'cars.brands.volvo': { fr: 'Volvo', en: 'Volvo' },
   'cars.brands.ford': { fr: 'Ford', en: 'Ford' },
   'cars.brands.hummer': { fr: 'Hummer', en: 'Hummer' },
   'cars.brands.nissan': { fr: 'Nissan', en: 'Nissan' },
@@ -783,6 +787,8 @@ const translations: Translations = {
   'cars.descriptions.ford': { fr: 'Berline confortable, économique et fiable, parfaite pour la famille.', en: 'Comfortable, economical and reliable sedan, perfect for families.' },
   'cars.descriptions.hummer': { fr: 'SUV électrique robuste, design unique et performances tout-terrain.', en: 'Robust electric SUV, unique design and off-road performance.' },
   'cars.descriptions.nissan': { fr: 'Compacte pratique, faible kilométrage et entretien facile.', en: 'Practical compact, low mileage and easy maintenance.' },
+  'cars.descriptions.volkswagen': { fr: 'Compacte sportive, design allemand, performances et confort exceptionnels.', en: 'Sporty compact, German design, exceptional performance and comfort.' },
+  'cars.descriptions.volvo': { fr: 'SUV de luxe suédois avec transmission intégrale, sécurité de pointe et confort premium.', en: 'Swedish luxury SUV with all-wheel drive, cutting-edge safety, and premium comfort.' },
   'cars.descriptions.hyundai': { fr: 'Berline moderne, faible consommation et conduite agréable.', en: 'Modern sedan, low consumption and pleasant driving.' },
   'cars.descriptions.audi': { fr: 'Berline sportive de luxe, édition exclusive avec pack carbone et performances exceptionnelles.', en: 'Luxury sports sedan, exclusive edition with carbon package and outstanding performance.' },
   'cars.descriptions.infiniti': { fr: 'VUS de luxe spacieux, moteur V6 3.7L puissant, confort et fiabilité.', en: 'Spacious luxury SUV, powerful 3.7L V6 engine, comfort and reliability.' },
@@ -839,4 +845,4 @@ export const useLanguage = (): LanguageContextType => {
     throw new Error('useLanguage must be used within a LanguageProvider');
   }
   return context;
-}; 
+};
